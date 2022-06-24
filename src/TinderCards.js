@@ -23,6 +23,7 @@ function TinderCards() {
             className="swipe"  
             key={person.name}
             preventSwipe={["up", "down"]}
+            
             ></TinderCard>
           ))}
           </div>
